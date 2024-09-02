@@ -93,7 +93,7 @@ def create_index():
         index = VectorStoreIndex.from_documents(docs)
         return index
 
-
+index = create_index()
 
 # Get the chat engine from the session_state
 if "chat_engine" not in st.session_state.keys():  # Initialize the chat engine
