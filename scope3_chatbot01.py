@@ -42,11 +42,11 @@ def log_message(log_file_path, message):
 title_str = "ClimateChoice Scope 3 Expert"
 st.set_page_config(page_title=title_str, page_icon="💚", layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.title(title_str)
-st.info("I’m here to help you with the latest GHG Protocol Scope 3 guidance. "
-        "Whether you’re starting with Scope 3 accounting or need details on target setting, I can assist you. "
-        "Tip: sharing your industry background and detailed requirements can help me provide more accurate answers.",
+st.info("I’m your educational assistant for the latest GHG Protocol Scope 3 standards. "
+        "Whether you’re new to Scope 3 accounting or need guidance on target setting, I provide detailed insights and updates, including the latest 2024 proposals. " 
+        "Tip: sharing your industry and specific needs helps me offer more precise support.",
         icon="🍀")
-st.info("Visit the ClimateChoice [here](www.theclimatechoice.com), and learn more about this chatbot [here](https://github.com/y-f-a/scope3chatbot).",
+st.info("Visit the ClimateChoice [here](https://www.theclimatechoice.com), and learn more about this chatbot [here](https://github.com/y-f-a/scope3chatbot).",
         icon="🖥️")
 
 
